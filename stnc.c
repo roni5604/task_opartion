@@ -208,15 +208,17 @@ int main(int argc, char *argv[])
             return 1;
           }
         }
-      
-        
-      
       }
       if (param == NULL || type == NULL)
       {
         fprintf(stderr, "Usage: %s -c IP PORT -p <param> <type> \n", argv[0]);
         return 1;
       }
+
+
+
+
+
      
     }
     else if (server_mode == 1)
@@ -231,6 +233,12 @@ int main(int argc, char *argv[])
       if (argc == 5 && performance == 1 && quiet_mode == 1)
       {
         printf("quiet mode is on\n");
+      }
+      else{
+        
+
+
+
       }
     }
     else
